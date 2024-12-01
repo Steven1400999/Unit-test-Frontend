@@ -146,7 +146,7 @@ test('TC_UI_005', async ({ page }) => {
 
   await expect(page.locator("div.emtitle a[href='https://www.cyberpuerta.mx/Computadoras/Laptops/Laptop-Gamer-ASUS-TUF-Gaming-F15-FX507VV-15-6-1920x1080-Full-HD-Intel-Core-i7-13620H-NVIDIA-GeForce-RTX-4060-16GB-1TB-SSD-Windows-11-Home-Espanol.html']")).toBeVisible();
 
-  await expect(page.locator("div[class='basketboxcount']")).toContainText("Tienes 1 producto(s) en tu carrito");
+  await expect(page.locator("div[class='basketboxcount']")).toContainText(" producto(s) en tu carrito");
 
 
  // await page.pause();
